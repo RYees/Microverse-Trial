@@ -7,12 +7,22 @@ html{
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    justify-content: center;
+    
+}
 
 #img-div {
     height: 50px;
     width: 50px;
+    text-align: center;
 }
 img{
     height: 350px;
     width: 250px;
+}
+#img-caption {
+    margin-top: 350px;
+    font-size: 2rem;
 }
